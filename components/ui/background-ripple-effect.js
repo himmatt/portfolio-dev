@@ -3,7 +3,7 @@ import React, { useMemo, useRef, useState } from "react";
 import { cn } from "@/utils/cn";
 
 export const BackgroundRippleEffect = ({
-  rows = 8,
+  rows = 18,
   cols = 27,
   cellSize = 56
 }) => {
@@ -15,7 +15,7 @@ export const BackgroundRippleEffect = ({
     <div
       ref={ref}
       className={cn(
-        "absolute inset-0 z-[1] h-full w-full -top-20",
+        "absolute inset-0 z-[1] h-full w-full opacity-63",
         "[--cell-border-color:var(--color-neutral-300)] [--cell-fill-color:var(--color-neutral-100)] [--cell-shadow-color:var(--color-neutral-500)]",
         "dark:[--cell-border-color:var(--color-neutral-700)] dark:[--cell-fill-color:var(--color-neutral-900)] dark:[--cell-shadow-color:var(--color-neutral-800)]"
       )}>

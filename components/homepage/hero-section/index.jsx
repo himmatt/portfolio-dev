@@ -18,9 +18,9 @@ import { PulsatingButton } from "@/components/ui/pulsating-hover-button";
 const HeroSection = () => {
   return (
       <section className="relative flex flex-col items-center justify-between py-4 lg:py-12">
-        <Spotlight className="-top-40 left-0 md:-top-20 md:left-60" fill="gray"/>
-        <div>
-        <BackgroundRippleEffect />
+        <Spotlight className="-top-40 left-0 md:-top-20 md:left-60" fill="grey"/>
+        <div >
+       
         <div className="grid grid-cols-1 items-start lg:grid-cols-2 lg:gap-12 gap-y-8">
           <motion.div
             variants={slideInFromLeft(0.2)}

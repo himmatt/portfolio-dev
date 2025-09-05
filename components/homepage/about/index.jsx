@@ -2,6 +2,7 @@ import { ShineBorder } from '@/components/ui/shine-border-card';
 import { personalData } from '@/utils/data/personal-data';
 import React from 'react'
 import Image from 'next/image';
+import { BackgroundGradient } from '@/components/ui/background-gradient';
 const AboutSection = () => {
     return (
         <div id="about" className='my-12 lg:my-16 relative'>
@@ -19,14 +20,15 @@ const AboutSection = () => {
                     </p>
                 </div>
                 <div className='flex justify-center order-1 lg:order-2'>
-                    <div className="relative overflow-hidden max-x-[250px] w-1/2">
-                        <ShineBorder shineColor={["#A07CFE", "#FE8FB5", "#FFBE7B"]} />
+                    <div>
+                        <BackgroundGradient className="rounded-[22px] max-w-[250px] bg-white dark:bg-zinc-900">
                         <Image src={personalData.profile}
                             width={280}
                             height={280}
+                            className='rounded-[22px] object-cover'
                             alt="Himmat Singh"
                         />
-            
+                        </BackgroundGradient>
                     </div>
                 </div>
             </div>
