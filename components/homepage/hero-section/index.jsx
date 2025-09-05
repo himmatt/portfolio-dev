@@ -31,7 +31,7 @@ const HeroSection = () => {
             <h1 className="text-3xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem]">
               Hello, <br />
               This is {""}
-              <span className="text-blue-300">{personalData.name}</span>
+              <span className="bg-gradient-to-r from-blue-300 to-slate-500 bg-clip-text text-transparent">{personalData.name}</span>
               {` ,I'm a Professional `}
               <span className="text-white">{personalData.designation}</span>.
             </h1>

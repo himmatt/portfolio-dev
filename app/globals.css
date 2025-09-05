@@ -36,6 +36,7 @@ body {
  
 @theme inline {
   --animate-spotlight: spotlight 2s ease 0.75s 1 forwards;
+  --animate-shine: shine var(--duration) infinite linear;
 }
  
 @keyframes spotlight {
@@ -62,3 +63,15 @@ body {
     }
   }
 }
+
+  @keyframes shine {
+    0% {
+      background-position: 0% 0%;
+    }
+    50% {
+      background-position: 100% 100%;
+    }
+    to {
+      background-position: 0% 0%;
+    }
+  }
