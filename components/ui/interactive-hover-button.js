@@ -9,9 +9,9 @@ export const InteractiveHoverButton = forwardRef(
         ref={ref}
         className={cn(
           // base styles
-          "group relative w-auto cursor-pointer overflow-hidden rounded-full border p-2 px-6 text-center font-semibold transition-colors duration-300",
+          "group relative flex z-[1] w-auto cursor-pointer overflow-hidden rounded-lg border p-2 px-4 text-center font-semibold transition-colors duration-300",
           // initial state
-          "bg-black text-white border-blue-900",
+          "bg-black text-white border-grey",
           // hover invert
           "hover:bg-white hover:text-black hover:border-white",
           className

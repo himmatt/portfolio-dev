@@ -13,6 +13,8 @@ import { motion } from "framer-motion";
 import { slideInFromLeft, slideInFromRight } from "@/utils/data/motion";
 import { Spotlight } from "@/components/ui/spotlight";
 import { InteractiveHoverButton } from "@/components/ui/interactive-hover-button";
+import { PulsatingButton } from "@/components/ui/pulsating-hover-button";
+
 const HeroSection = () => {
   return (
       <section className="relative flex flex-col items-center justify-between py-4 lg:py-12">
@@ -72,6 +74,9 @@ const HeroSection = () => {
             </div>
                     
             <div className="flex items-center gap-3">
+              <Link href="#contact" >
+                <PulsatingButton>Contact Me</PulsatingButton>
+              </Link>
               <Link role="button" target="_blank" href={personalData.resume}>
                 <InteractiveHoverButton>Resume</InteractiveHoverButton>
               </Link>
