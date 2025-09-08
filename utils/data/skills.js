@@ -10,6 +10,5 @@ export const skillsData = [
     'MySQL',
     'Git',
     'MaterialUI',
-    'Ubuntu',
     'AWS'
 ]
