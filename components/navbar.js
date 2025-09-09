@@ -1,11 +1,18 @@
 // @flow strict
+"use client";
+import { slideInFromTop } from "@/utils/data/motion";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 
 function Navbar() {
   return (
     <nav className="bg-transparent">
-      <div className="flex items-center justify-between py-5">
+      <motion.div
+        variants={slideInFromTop}
+        initial="hidden"
+        animate="visible"
+        className="flex items-center justify-between py-5">
         <div className="flex flex-shrink-0 items-center">
           <Link
             href="/"
@@ -36,7 +43,7 @@ function Navbar() {
             <Link className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/#projects"><div className="text-sm text-white transition-colors duration-300 hover:text-gray-600">PROJECTS</div></Link>
           </li>
         </ul>
-      </div>
+      </motion.div>
     </nav>
   );
 };

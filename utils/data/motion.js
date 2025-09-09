@@ -1,3 +1,6 @@
+"use client"
+import { delay } from "motion";
+import { Variants } from "framer-motion";
 export function slideInFromLeft(delay) {
     return {
       hidden: { x: -100, opacity: 0 },
@@ -32,8 +35,14 @@ export function slideInFromLeft(delay) {
       y: 0,
       opacity: 1,
       transition: {
-        delay: 0.5,
-        duration: 0.5,
+        delay: 0.1,
+        duration: 0.4,
       },
     },
   };
+  
+  
+
+
+
+  

@@ -1,12 +1,20 @@
+"use client"
 import { skillsData } from '@/utils/data/skills'
 import { skillsImage } from '@/utils/skill-image'
 import React from 'react'
 import Marquee from 'react-fast-marquee'
 import Image from 'next/image'
-
+import { motion } from "framer-motion";
+import { slideInFromTop } from '@/utils/data/motion'
 const SkillSection = () => {
   return (
-      <div id="skills" className='relative z-50 border-t my-12 lg:my-24 border-gray-800'>
+      <motion.div
+          variants={slideInFromTop}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{once:false}}
+          id="skills"
+          className='relative z-50 border-t my-12 lg:my-24 border-gray-800'>
           <div className='w-[100px] h-[100px] bg-violet-100 rounded-full absolute top-6 left-[42%] translate-x-1/2 filter blur-3xl opacity-20'></div> 
           
           <div className='flex justify-center -translate-y-[1px]'>
@@ -64,7 +72,7 @@ const SkillSection = () => {
               </Marquee>
           </div>
       
-    </div>
+    </motion.div>
   )
 }
 
