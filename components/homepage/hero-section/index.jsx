@@ -14,6 +14,7 @@ import { slideInFromLeft, slideInFromRight } from "@/utils/data/motion";
 import { Spotlight } from "@/components/ui/spotlight";
 import { InteractiveHoverButton } from "@/components/ui/interactive-hover-button";
 import { PulsatingButton } from "@/components/ui/pulsating-hover-button";
+import { contactSection } from "@/utils/data/contact";
 
 const HeroSection = () => {
   return (
@@ -74,7 +75,7 @@ const HeroSection = () => {
             </div>
                     
             <div className="flex items-center gap-3">
-              <Link href="#contact" >
+              <Link href={contactSection.link} >
                 <PulsatingButton>Contact Me</PulsatingButton>
               </Link>
               <Link role="button" target="_blank" href={personalData.resume}>
