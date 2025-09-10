@@ -14,7 +14,7 @@
 
 <br>
 
-[![My Portfolio](./public/images/preview.png)
+[![My Portfolio](./public/image/preview.png))
 
 ## Table of Contents
 
