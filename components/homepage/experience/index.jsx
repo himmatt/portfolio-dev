@@ -16,7 +16,7 @@ function ExperienceSection() {
               variants={slideInFromTop}
               initial="hidden"
               whileInView="visible"
-              viewport={{once:false}}
+              viewport={{once:true}}
               className='flex justify-center my-5 lg:py-8'>
               <div className='flex items-center'>
                   <span className='w-24 h-[2px] bg-gray-800'></span>
@@ -33,7 +33,7 @@ function ExperienceSection() {
                       variants={slideInFromLeft(0.2)}
                       initial="hidden"
                       whileInView="visible"
-                      viewport={{once:false}}
+                      viewport={{once:true}}
                       className='flex justify-center items-start'>
                       <div className='w-[380px] h-full'>
                           <AnimationLottie animationPath={developer}/>
@@ -43,7 +43,7 @@ function ExperienceSection() {
                       variants={slideInFromRight(0.2)}
                       initial="hidden"
                       whileInView="visible"
-                      viewport={{ once: false }}
+                      viewport={{ once: true }}
                   >
                   <Timeline />
                   </motion.div>

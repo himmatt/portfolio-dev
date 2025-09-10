@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+  himmat.site
+</h1>
+<p align="center">
+  A portfolio website i.e. <a href="https://himmat.site" target="_blank">himmat.site</a> built with <a href="https://nextjs.org/" target="_blank">Next.js</a> and hosted with <a href="https://netlify.com/" target="_blank">Netlify</a>
+</p>
 
-## Getting Started
+<p align="center">
+  <a href="https://choosealicense.com/licenses/mit/">
+    <img src="https://img.shields.io/badge/License-MIT-brightgreen"/ >
+  </a>
+  <img src="https://img.shields.io/badge/Version-1.0.0-blue"/ >
+</p>
 
-First, run the development server:
+<br>
+
+[![My Portfolio](./public/images/preview.png)
+
+## Table of Contents
+
+- [Sections](#sections)
+- [Built With](#built-with)
+- [How to use](#how-to-use)
+- [Contributing](#contributing)
+- [Continuous Development](#continuous-development)
+- [Contact](#contact)
+- [Acknowledgements](#acknowledgements)
+- [Show Your Support](#show-your-support)
+
+## Sections
+
+- Hero
+- About
+- Skills
+- Experience
+- Certifications
+- Projects
+- Contact
+
+## Built With
+
+- [Next.js](https://nextjs.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/) - For animations
+- [Aceternity UI](https://ui.aceternity.com/) - For UI Components
+- [Lottie Files](https://lottiefiles.com/) - For illustrations
+- [Tabler Icon](https://tabler.io/icons)- For Icons
+- [Lucid React](https://lucide.dev/icons/)- For Icons
+
+## How to use
+
+###### To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](https://www.npmjs.com/) installed on your computer).
+
+1. Fork this repository and clone the project
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+  git clone https://github.com/<YOUR USERNAME>/portfolio-website.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Go to the project directory
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```bash
+  cd portfolio_hs
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. Install dependencies
 
-## Learn More
+```bash
+  npm
+```
 
-To learn more about Next.js, take a look at the following resources:
+4. Start the server
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+  npm run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- To change the content, edit `utils/data/`
 
-## Deploy on Vercel
+- To change the **resume**, change `/public/resume.pdf` with your resume (name must be `resume.pdf`)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- To change the **About Section**, edit `components/homepage/about/`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+## Show Your Support
+
+Give a ⭐️ if you liked this project!
