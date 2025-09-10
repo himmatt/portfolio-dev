@@ -1,13 +1,20 @@
+"use client"
 import { contactSection } from '@/utils/data/contact'
 import React from 'react';
 import Link from "next/link";
+import {motion} from "framer-motion";
 import { PulsatingButton } from '@/components/ui/pulsating-hover-button';
+import { slideInFromTop } from '@/utils/data/motion';
 
 const Contact = () => {
     const { subtitle, title, paragraphs, link } = contactSection;
   return (
-      <div
+      <motion.div
           id="contact"
+          variants={slideInFromTop}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{once:true}}
           className='max-w-xl mx-auto text-center !py-16 md:!py-24 mb-20 md:mb-32'
       >
           <p className='mb-3 font-medium text-sm lg:text-lg text-gray-400 capitalize'>
@@ -25,7 +32,7 @@ const Contact = () => {
               </Link>
         </div>
       
-    </div>
+    </motion.div>
   )
 }
 
