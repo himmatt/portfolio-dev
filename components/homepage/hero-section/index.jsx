@@ -66,7 +66,7 @@ const HeroSection = () => {
                 <SiLeetcode size={30} />
               </Link>
               <Link
-                href={personalData.twitter}
+                href={personalData.instagram}
                 target="_blank"
                 className="transition-all text-white hover:scale-125 duration-300"
               >

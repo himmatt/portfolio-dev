@@ -6,12 +6,11 @@ export const personalData = {
   email: 'rjhimmatsingh@gmail.com',
   phone: '+959 971300924',
   address: 'Yangon, Myanmar',
-  github: 'https://github.com/said7388',
-  facebook: 'https://www.facebook.com/abusaid.riyaz/',
-  linkedIn: 'https://www.linkedin.com/in/abu-said-bd/',
-  twitter: 'https://twitter.com/said7388',
-  stackOverflow: 'https://stackoverflow.com/users/16840768/abu-said',
-  leetcode: "https://leetcode.com/said3812/",
-  devUsername: "said7388",
-  resume: "https://drive.google.com/file/d/1eyutpKFFhJ9X-qpQGKhUNnVRkB5Wer00/view?usp=sharing"
+  github: 'https://github.com/himmatt',
+  facebook: 'https://www.facebook.com/rjhimmatsingh',
+  linkedIn: 'https://www.linkedin.com/in/himmattsingh',
+  instagram: "https://www.instagram.com/himattsingh/",
+  leetcode: "https://leetcode.com/u/himmatt/",
+  devUsername: "himmatt",
+  resume: "https://drive.google.com/file/d/1L1nFqUgLyqZcIdnxK0rrkK-Obqf-RP1H/view?usp=drive_link"
 }
