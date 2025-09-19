@@ -13,7 +13,7 @@ const Timeline = ({ timelineData }) => {
               <span>Issue on{item.date}</span>
             </time>
             
-            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+            <h3 className="text-lg font-semibold text-white">
               {item.title}
                 </h3>
             <h6 className="mb-2 text-base font-normal text-gray-500 dark:text-gray-500">
