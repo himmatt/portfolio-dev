@@ -1,20 +1,31 @@
-export const educations = [
+export const educationData = [
   {
-    id: 1,
-    title: "Bachelor Degree",
-    duration: "2022 - 2025",
-    institution: "Charotar University of Science and Technology",
+    date: "January 2026",
+    title: "B.Sc Information Technology",
+    institute: "Charotar University of Science And Technology",
+    description: "I earned a Bachelor of Science in Information Technology with Distinction from CHARUSAT , India.",
   },
   {
-    id: 2,
-    title: "Higher Secondary Certificate",
-    duration: "2018 - 2020",
-    institution: "Noakhali Islamia Kamil Madrasah",
+    date: "May 28, 2024",
+    title: "AWS Cloud Technical Essentials",
+    institute: "AWS",
+    description: "Gained foundational knowledge of core AWS services and architecture, including compute (EC2, Lambda, ECS), storage (S3), and databases (RDS, DynamoDB). Learned key terminology, security best practices, and identity management with AWS IAM.",
+    link:"https://coursera.org/share/e3dd39b0a882e4674b17eae90dc3fe8e",
   },
   {
-    id: 3,
-    title: "Secondary School Certificate",
-    duration: "2008 - 2018",
-    institution: "Baitus Saif Islamia Madrasah",
+    date: "August 8, 2023",
+    title: "Introduction to Cloud Computing",
+    institute: "IBM",
+    description: "Covered core concepts, service and deployment models, key infrastructure, emerging trends (hybrid-multicloud, serverless, DevOps), and major platforms like AWS, Azure, Google Cloud, IBM Cloud, and Alibaba Cloud.",
+    link:"https://coursera.org/share/6a10fee85afd4ee3ed9c3e0166d08d7a",
+  },
+  {
+    date: "July 21, 2021",
+    title: "Technical Support Fundamentals",
+    institute: "Google",
+    description: "Gained foundational skills in technical support, including computer hardware and software, Linux and Windows systems, networking, troubleshooting, software installation, technical documentation, and customer support.",
+    link:"https://coursera.org/share/391d7c595d3893c3274e29edf18b0201"
+    
   }
+  
 ]
