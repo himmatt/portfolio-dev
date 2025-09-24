@@ -14,3 +14,21 @@ export const personalData = {
   devUsername: "himmatt",
   resume: "https://drive.google.com/file/d/1L1nFqUgLyqZcIdnxK0rrkK-Obqf-RP1H/view?usp=drive_link"
 }
+
+export const seoData = {
+  title: "Ye Yint Aung | Software Developer",
+  description: "Ye Yint Aung | Himmat Singh | Frontend Developer | AWS Cloud Practitioner.",
+  author: personalData.name,
+  image: '/image/preview.png',
+  url: "https://www.himmat.site/",
+  keywords: [
+    'GitHub',
+    'Ye Yint Aung',
+    'Himmat Singh',
+    '@himmat',
+    'Charusat',
+    'Software Developer',
+    'Myanmar Sikh',
+    'Frontend',
+  ]
+}
